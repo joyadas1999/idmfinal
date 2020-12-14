@@ -1,38 +1,48 @@
 .App {
-  text-align: center;
+  max-width: 1040px;
+  margin: 0 auto;
+  background-image: url(https://i.pinimg.com/originals/29/8d/93/298d930ccb08bbed8b70656e90a267cb.gif);
+  background-size: 100;
+  padding: 30vw;
+  font-weight: bold;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header nav {
+  display: flex;
+  justify-content: flex-end;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Header nav a {
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin: 10px;
+  text-decoration: underline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.SignupForm {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.SignForm input,
+.SignupForm button {
+  margin-bottom: 30px;
+  max-width: 400px;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Drain {
+  padding: 20v;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  height: 100px;
+  width: 400px;
+  font-size: 30px;
+  margin: 20px;
+  justify-content: flex-end;
 }
